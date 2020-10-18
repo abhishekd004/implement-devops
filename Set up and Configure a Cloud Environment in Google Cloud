@@ -72,3 +72,5 @@ sed -i s/YOUR_SQL_INSTANCE/$I/g wp-deployment.yaml
 kubectl create -f wp-deployment.yaml
 
 kubectl create -f wp-service.yaml
+
+gcloud compute forwarding-rules list
